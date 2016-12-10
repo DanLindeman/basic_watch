@@ -1,0 +1,40 @@
+{
+    "author": "lindemda@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "basic_watch",
+    "pebble": {
+        "displayName": "My Watch ",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/background.png",
+                    "name": "MY_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "icon",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "7dc15d16-32d9-436e-ab1a-0140b601f3e4",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
